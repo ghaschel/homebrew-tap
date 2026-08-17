@@ -1,8 +1,8 @@
 class Squeezit < Formula
   desc "Lossless image optimizer CLI"
   homepage "https://github.com/ghaschel/squeezit"
-  url "https://registry.npmjs.org/squeezit/-/squeezit-2.0.7.tgz"
-  sha256 "af2ef4e717c1935671fee9cb2d0d71e218a949b68abe7bd7b97a29f07f9c5975"
+  url "https://registry.npmjs.org/squeezit/-/squeezit-2.1.0.tgz"
+  sha256 "d8aecf50aba28ddcd5c5a46cdb1d2c38728e09d93126450dea1b9c74e68bca88"
   license "MIT"
 
   depends_on "node"
