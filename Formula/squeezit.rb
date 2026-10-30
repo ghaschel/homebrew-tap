@@ -1,8 +1,8 @@
 class Squeezit < Formula
   desc "Lossless image optimizer CLI"
   homepage "https://github.com/ghaschel/squeezit"
-  url "https://registry.npmjs.org/squeezit/-/squeezit-2.4.3.tgz"
-  sha256 "125f7545577ad5f43a868ec43f137209d78d5ea4c4920dcdd0c9c7ad76eb0ab1"
+  url "https://registry.npmjs.org/squeezit/-/squeezit-2.5.0.tgz"
+  sha256 "fb817522953d7b194c9f82310a9238dda9b1fb23c31fc6c1f486547cfc711202"
   license "MIT"
 
   depends_on "node"
@@ -20,6 +20,7 @@ class Squeezit < Formula
   depends_on "optipng"
   depends_on "oxipng"
   depends_on "pngcrush"
+  depends_on "qpdf"
   depends_on "svgo"
   depends_on "webp"
   depends_on "zopfli"
